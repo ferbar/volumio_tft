@@ -1,0 +1,10 @@
+[Unit]
+Description=volumio tft
+
+[Timer]
+OnUnitActiveSec=5s
+OnBootSec=10s
+AccuracySec=5s
+
+[Install]
+WantedBy=volumio.service

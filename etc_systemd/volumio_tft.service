@@ -1,0 +1,6 @@
+[Unit]
+Description=volumio tft display
+
+[Service]
+ExecStart=/home/volumio/dev/volumio_tft/update_display.sh
+
