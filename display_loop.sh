@@ -9,6 +9,6 @@ while true ; do
 #	convert -density 90 -pointsize 16 label:"$status
 #$title" /tmp/info.gif
 #	fbi -T 1 -d /dev/fb1 /tmp/info.gif
-	time nice -n 19 fb_cairo/main "$status" "$title" "$artist"
+	time nice -n 19 /usr/bin/fb_cairo "$status" "$title" "$artist"
 	sleep 5
 done
