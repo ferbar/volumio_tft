@@ -3,13 +3,13 @@ Scripts to display volumio information on an fbtft_device display. The kernel mo
 
 use in combination with https://github.com/ferbar/fb_cairo to display the track currently played.
 
-##itb28 / ILI9325 config
+## itb28 / ILI9325 config
 copy etc_systemd/* to /etc/systemd/system
 systemctl enable volumio_tft.timer
 
 copy etc_modules* to /etc/modulesxyz
 
-##ads7846 config
+## ads7846 config
 only configurable by an dtoverly (google for ads7846-overlay.dts)
 
 /boot/config.txt:
